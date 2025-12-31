@@ -1,0 +1,15 @@
+{
+  "name": "websitescore",
+  "version": "1.0.0",
+  "description": "Website analyzer - Score your website on Quality, Trust & Security, and PageSpeed",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev": "npm run dev:server"
+  },
+  "keywords": ["website", "analyzer", "seo", "performance", "security"],
+  "author": "Rishi",
+  "license": "MIT"
+}
